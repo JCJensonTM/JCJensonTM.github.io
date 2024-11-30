@@ -45,7 +45,7 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
-{gdjs.evtTools.window.setGameResolutionSize(runtimeScene, 720, 1280);
+{gdjs.evtTools.window.setGameResolutionSize(runtimeScene, gdjs.evtTools.window.getWindowInnerWidth(), gdjs.evtTools.window.getWindowInnerWidth());
 }}
 
 }
