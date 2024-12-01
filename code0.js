@@ -24,6 +24,8 @@ gdjs.mantinenceCode.GDinfoplusObjects1= [];
 gdjs.mantinenceCode.GDinfoplusObjects2= [];
 gdjs.mantinenceCode.GDMitchell_9595s_9595notesObjects1= [];
 gdjs.mantinenceCode.GDMitchell_9595s_9595notesObjects2= [];
+gdjs.mantinenceCode.GDhintObjects1= [];
+gdjs.mantinenceCode.GDhintObjects2= [];
 
 
 gdjs.mantinenceCode.eventsList0 = function(runtimeScene) {
@@ -358,6 +360,8 @@ gdjs.mantinenceCode.GDinfoplusObjects1.length = 0;
 gdjs.mantinenceCode.GDinfoplusObjects2.length = 0;
 gdjs.mantinenceCode.GDMitchell_9595s_9595notesObjects1.length = 0;
 gdjs.mantinenceCode.GDMitchell_9595s_9595notesObjects2.length = 0;
+gdjs.mantinenceCode.GDhintObjects1.length = 0;
+gdjs.mantinenceCode.GDhintObjects2.length = 0;
 
 gdjs.mantinenceCode.eventsList2(runtimeScene);
 gdjs.mantinenceCode.GDJCJenson_9595logoObjects1.length = 0;
@@ -384,6 +388,8 @@ gdjs.mantinenceCode.GDinfoplusObjects1.length = 0;
 gdjs.mantinenceCode.GDinfoplusObjects2.length = 0;
 gdjs.mantinenceCode.GDMitchell_9595s_9595notesObjects1.length = 0;
 gdjs.mantinenceCode.GDMitchell_9595s_9595notesObjects2.length = 0;
+gdjs.mantinenceCode.GDhintObjects1.length = 0;
+gdjs.mantinenceCode.GDhintObjects2.length = 0;
 
 
 return;

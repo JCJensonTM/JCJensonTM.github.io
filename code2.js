@@ -661,7 +661,8 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.variable.getVariableString(runtimeScene.getScene().getVariables().getFromIndex(8)) == runtimeScene.getScene().getVariables().getFromIndex(2).getAsString();
 }
 if (isConditionTrue_0) {
-}
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "main", false);
+}}
 
 }
 
@@ -901,10 +902,22 @@ if (isConditionTrue_0) {
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("Log_in"), gdjs.secretCode.GDLog_9595inObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Insert");
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.secretCode.GDLog_9595inObjects1.length;i<l;++i) {
+    if ( gdjs.secretCode.GDLog_9595inObjects1[i].isVisible() ) {
+        isConditionTrue_0 = true;
+        gdjs.secretCode.GDLog_9595inObjects1[k] = gdjs.secretCode.GDLog_9595inObjects1[i];
+        ++k;
+    }
+}
+gdjs.secretCode.GDLog_9595inObjects1.length = k;
+}
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Nameinput"), gdjs.secretCode.GDNameinputObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Passwordinput"), gdjs.secretCode.GDPasswordinputObjects1);
