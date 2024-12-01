@@ -22,6 +22,8 @@ gdjs.mantinenceCode.GDfullscreenObjects1= [];
 gdjs.mantinenceCode.GDfullscreenObjects2= [];
 gdjs.mantinenceCode.GDinfoplusObjects1= [];
 gdjs.mantinenceCode.GDinfoplusObjects2= [];
+gdjs.mantinenceCode.GDMitchell_9595s_9595notesObjects1= [];
+gdjs.mantinenceCode.GDMitchell_9595s_9595notesObjects2= [];
 
 
 gdjs.mantinenceCode.eventsList0 = function(runtimeScene) {
@@ -306,6 +308,27 @@ gdjs.copyArray(runtimeScene.getObjects("infoplus"), gdjs.mantinenceCode.GDinfopl
 }
 
 
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Mitchell_s_notes"), gdjs.mantinenceCode.GDMitchell_9595s_9595notesObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.mantinenceCode.GDMitchell_9595s_9595notesObjects1.length;i<l;++i) {
+    if ( gdjs.mantinenceCode.GDMitchell_9595s_9595notesObjects1[i].getBehavior("ButtonFSM").IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.mantinenceCode.GDMitchell_9595s_9595notesObjects1[k] = gdjs.mantinenceCode.GDMitchell_9595s_9595notesObjects1[i];
+        ++k;
+    }
+}
+gdjs.mantinenceCode.GDMitchell_9595s_9595notesObjects1.length = k;
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Mitchell Notes", false);
+}}
+
+}
+
+
 };
 
 gdjs.mantinenceCode.func = function(runtimeScene) {
@@ -333,6 +356,8 @@ gdjs.mantinenceCode.GDfullscreenObjects1.length = 0;
 gdjs.mantinenceCode.GDfullscreenObjects2.length = 0;
 gdjs.mantinenceCode.GDinfoplusObjects1.length = 0;
 gdjs.mantinenceCode.GDinfoplusObjects2.length = 0;
+gdjs.mantinenceCode.GDMitchell_9595s_9595notesObjects1.length = 0;
+gdjs.mantinenceCode.GDMitchell_9595s_9595notesObjects2.length = 0;
 
 gdjs.mantinenceCode.eventsList2(runtimeScene);
 gdjs.mantinenceCode.GDJCJenson_9595logoObjects1.length = 0;
@@ -357,6 +382,8 @@ gdjs.mantinenceCode.GDfullscreenObjects1.length = 0;
 gdjs.mantinenceCode.GDfullscreenObjects2.length = 0;
 gdjs.mantinenceCode.GDinfoplusObjects1.length = 0;
 gdjs.mantinenceCode.GDinfoplusObjects2.length = 0;
+gdjs.mantinenceCode.GDMitchell_9595s_9595notesObjects1.length = 0;
+gdjs.mantinenceCode.GDMitchell_9595s_9595notesObjects2.length = 0;
 
 
 return;
