@@ -60,12 +60,21 @@ gdjs.secretCode.asyncCallback9927452 = function (runtimeScene, asyncObjectsList)
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.secretCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Log_in"), gdjs.secretCode.GDLog_9595inObjects6);
 
-gdjs.copyArray(runtimeScene.getObjects("Nameinput"), gdjs.secretCode.GDNameinputObjects6);
+gdjs.copyArray(asyncObjectsList.getObjects("Nameinput"), gdjs.secretCode.GDNameinputObjects6);
+
+gdjs.copyArray(asyncObjectsList.getObjects("Passwordinput"), gdjs.secretCode.GDPasswordinputObjects6);
+
 {for(var i = 0, len = gdjs.secretCode.GDLog_9595inObjects6.length ;i < len;++i) {
     gdjs.secretCode.GDLog_9595inObjects6[i].hide(false);
 }
 }{for(var i = 0, len = gdjs.secretCode.GDNameinputObjects6.length ;i < len;++i) {
     gdjs.secretCode.GDNameinputObjects6[i].focus();
+}
+}{for(var i = 0, len = gdjs.secretCode.GDNameinputObjects6.length ;i < len;++i) {
+    gdjs.secretCode.GDNameinputObjects6[i].setReadOnly(false);
+}
+}{for(var i = 0, len = gdjs.secretCode.GDPasswordinputObjects6.length ;i < len;++i) {
+    gdjs.secretCode.GDPasswordinputObjects6[i].setReadOnly(false);
 }
 }gdjs.secretCode.localVariables.length = 0;
 }
@@ -80,6 +89,8 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.secretCode.localVariables);
 /* Don't save Log_in as it will be provided by the parent asyncObjectsList. */
+/* Don't save Nameinput as it will be provided by the parent asyncObjectsList. */
+/* Don't save Passwordinput as it will be provided by the parent asyncObjectsList. */
 runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.secretCode.asyncCallback9927452(runtimeScene, asyncObjectsList)));
 }
 }
@@ -110,6 +121,8 @@ const parentAsyncObjectsList = asyncObjectsList;
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.secretCode.localVariables);
 /* Don't save Log_in as it will be provided by the parent asyncObjectsList. */
+/* Don't save Nameinput as it will be provided by the parent asyncObjectsList. */
+/* Don't save Passwordinput as it will be provided by the parent asyncObjectsList. */
 /* Don't save password as it will be provided by the parent asyncObjectsList. */
 runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), (runtimeScene) => (gdjs.secretCode.asyncCallback12224436(runtimeScene, asyncObjectsList)));
 }
@@ -142,6 +155,8 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.secretCode.localVariables);
 /* Don't save Log_in as it will be provided by the parent asyncObjectsList. */
 /* Don't save Name as it will be provided by the parent asyncObjectsList. */
+/* Don't save Nameinput as it will be provided by the parent asyncObjectsList. */
+/* Don't save Passwordinput as it will be provided by the parent asyncObjectsList. */
 /* Don't save password as it will be provided by the parent asyncObjectsList. */
 runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.5), (runtimeScene) => (gdjs.secretCode.asyncCallback8653956(runtimeScene, asyncObjectsList)));
 }
@@ -177,6 +192,8 @@ const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.secretCode.localVariables);
 /* Don't save Log_in as it will be provided by the parent asyncObjectsList. */
 /* Don't save Name as it will be provided by the parent asyncObjectsList. */
+/* Don't save Nameinput as it will be provided by the parent asyncObjectsList. */
+/* Don't save Passwordinput as it will be provided by the parent asyncObjectsList. */
 /* Don't save loginwarning as it will be provided by the parent asyncObjectsList. */
 /* Don't save password as it will be provided by the parent asyncObjectsList. */
 runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), (runtimeScene) => (gdjs.secretCode.asyncCallback9465252(runtimeScene, asyncObjectsList)));
@@ -209,6 +226,8 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.secretCode.localVariables);
 for (const obj of gdjs.secretCode.GDLog_9595inObjects1) asyncObjectsList.addObject("Log_in", obj);
 for (const obj of gdjs.secretCode.GDNameObjects1) asyncObjectsList.addObject("Name", obj);
+for (const obj of gdjs.secretCode.GDNameinputObjects1) asyncObjectsList.addObject("Nameinput", obj);
+for (const obj of gdjs.secretCode.GDPasswordinputObjects1) asyncObjectsList.addObject("Passwordinput", obj);
 for (const obj of gdjs.secretCode.GDblackObjects1) asyncObjectsList.addObject("black", obj);
 for (const obj of gdjs.secretCode.GDloginwarningObjects1) asyncObjectsList.addObject("loginwarning", obj);
 for (const obj of gdjs.secretCode.GDpasswordObjects1) asyncObjectsList.addObject("password", obj);
@@ -233,10 +252,14 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Log_in"), gdjs.secretCode.GDLog_9595inObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Name"), gdjs.secretCode.GDNameObjects1);
+gdjs.copyArray(runtimeScene.getObjects("Nameinput"), gdjs.secretCode.GDNameinputObjects1);
+gdjs.copyArray(runtimeScene.getObjects("Passwordinput"), gdjs.secretCode.GDPasswordinputObjects1);
 gdjs.copyArray(runtimeScene.getObjects("black"), gdjs.secretCode.GDblackObjects1);
+gdjs.copyArray(runtimeScene.getObjects("logbold"), gdjs.secretCode.GDlogboldObjects1);
 gdjs.copyArray(runtimeScene.getObjects("loginwarning"), gdjs.secretCode.GDloginwarningObjects1);
 gdjs.copyArray(runtimeScene.getObjects("password"), gdjs.secretCode.GDpasswordObjects1);
-{gdjs.evtsExt__MousePointerLock__RequestPointerLock.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+{gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
+}{gdjs.evtsExt__MousePointerLock__RequestPointerLock.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }{for(var i = 0, len = gdjs.secretCode.GDloginwarningObjects1.length ;i < len;++i) {
     gdjs.secretCode.GDloginwarningObjects1[i].hide();
 }
@@ -249,8 +272,16 @@ gdjs.copyArray(runtimeScene.getObjects("password"), gdjs.secretCode.GDpasswordOb
 }{for(var i = 0, len = gdjs.secretCode.GDLog_9595inObjects1.length ;i < len;++i) {
     gdjs.secretCode.GDLog_9595inObjects1[i].hide();
 }
+}{for(var i = 0, len = gdjs.secretCode.GDNameinputObjects1.length ;i < len;++i) {
+    gdjs.secretCode.GDNameinputObjects1[i].setReadOnly(true);
+}
+}{for(var i = 0, len = gdjs.secretCode.GDPasswordinputObjects1.length ;i < len;++i) {
+    gdjs.secretCode.GDPasswordinputObjects1[i].setReadOnly(true);
+}
+}{for(var i = 0, len = gdjs.secretCode.GDlogboldObjects1.length ;i < len;++i) {
+    gdjs.secretCode.GDlogboldObjects1[i].setReadOnly(true);
+}
 }{gdjs.evtsExt__CursorType__ChangeCursorType.func(runtimeScene, "none", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
 }{for(var i = 0, len = gdjs.secretCode.GDblackObjects1.length ;i < len;++i) {
     gdjs.secretCode.GDblackObjects1[i].getBehavior("Opacity").setOpacity(255);
 }

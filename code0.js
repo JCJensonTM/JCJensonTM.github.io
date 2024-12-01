@@ -83,11 +83,23 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
+if (isConditionTrue_0) {
+{gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("interact"), gdjs.mainCode.GDinteractObjects1);
-{gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
-}{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(gdjs.randomInRange(1, 25));
+{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(gdjs.randomInRange(1, 25));
 }{for(var i = 0, len = gdjs.mainCode.GDinteractObjects1.length ;i < len;++i) {
     gdjs.mainCode.GDinteractObjects1[i].activateBehavior("ButtonFSM", false);
 }
