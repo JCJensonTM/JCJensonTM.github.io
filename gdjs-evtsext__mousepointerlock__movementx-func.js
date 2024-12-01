@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__MousePointerLock__MovementX !== "undefined") {
 gdjs.evtsExt__MousePointerLock__MovementX = {};
 
 
-gdjs.evtsExt__MousePointerLock__MovementX.userFunc0x89b338 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__MousePointerLock__MovementX.userFunc0xac0b10 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = gdjs._MousePointerLockExtension.movement.x || 0;
 };
@@ -17,7 +17,7 @@ gdjs.evtsExt__MousePointerLock__MovementX.eventsList0 = function(runtimeScene, e
 {
 
 
-gdjs.evtsExt__MousePointerLock__MovementX.userFunc0x89b338(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__MousePointerLock__MovementX.userFunc0xac0b10(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
