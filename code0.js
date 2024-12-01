@@ -27,7 +27,7 @@ gdjs.mainCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0)) == gdjs.randomInRange(1, 1);
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableNumber(runtimeScene.getScene().getVariables().getFromIndex(0)) == gdjs.randomInRange(1, 35);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("JCJenson_logo"), gdjs.mainCode.GDJCJenson_9595logoObjects1);
 gdjs.copyArray(runtimeScene.getObjects("warningdrawing"), gdjs.mainCode.GDwarningdrawingObjects1);
@@ -87,7 +87,7 @@ isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("interact"), gdjs.mainCode.GDinteractObjects1);
 {gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
-}{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(gdjs.randomInRange(1, 1));
+}{runtimeScene.getScene().getVariables().getFromIndex(0).setNumber(gdjs.randomInRange(1, 35));
 }{for(var i = 0, len = gdjs.mainCode.GDinteractObjects1.length ;i < len;++i) {
     gdjs.mainCode.GDinteractObjects1[i].activateBehavior("ButtonFSM", false);
 }
