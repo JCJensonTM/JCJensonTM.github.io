@@ -18,6 +18,8 @@ gdjs.mainCode.GDinteractObjects1= [];
 gdjs.mainCode.GDinteractObjects2= [];
 gdjs.mainCode.GDInfoObjects1= [];
 gdjs.mainCode.GDInfoObjects2= [];
+gdjs.mainCode.GDfullscreenObjects1= [];
+gdjs.mainCode.GDfullscreenObjects2= [];
 
 
 gdjs.mainCode.eventsList0 = function(runtimeScene) {
@@ -80,9 +82,19 @@ if (isConditionTrue_0) {
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("fullscreen"), gdjs.mainCode.GDfullscreenObjects1);
 
 let isConditionTrue_0 = false;
-{
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.mainCode.GDfullscreenObjects1.length;i<l;++i) {
+    if ( gdjs.mainCode.GDfullscreenObjects1[i].getBehavior("ButtonFSM").IsClicked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        isConditionTrue_0 = true;
+        gdjs.mainCode.GDfullscreenObjects1[k] = gdjs.mainCode.GDfullscreenObjects1[i];
+        ++k;
+    }
+}
+gdjs.mainCode.GDfullscreenObjects1.length = k;
+if (isConditionTrue_0) {
 {gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
 }}
 
@@ -263,6 +275,8 @@ gdjs.mainCode.GDinteractObjects1.length = 0;
 gdjs.mainCode.GDinteractObjects2.length = 0;
 gdjs.mainCode.GDInfoObjects1.length = 0;
 gdjs.mainCode.GDInfoObjects2.length = 0;
+gdjs.mainCode.GDfullscreenObjects1.length = 0;
+gdjs.mainCode.GDfullscreenObjects2.length = 0;
 
 gdjs.mainCode.eventsList2(runtimeScene);
 gdjs.mainCode.GDJCJenson_9595logoObjects1.length = 0;
@@ -283,6 +297,8 @@ gdjs.mainCode.GDinteractObjects1.length = 0;
 gdjs.mainCode.GDinteractObjects2.length = 0;
 gdjs.mainCode.GDInfoObjects1.length = 0;
 gdjs.mainCode.GDInfoObjects2.length = 0;
+gdjs.mainCode.GDfullscreenObjects1.length = 0;
+gdjs.mainCode.GDfullscreenObjects2.length = 0;
 
 
 return;
