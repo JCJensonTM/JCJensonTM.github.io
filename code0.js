@@ -82,9 +82,7 @@ if (isConditionTrue_0) {
 
 
 let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
-if (isConditionTrue_0) {
+{
 {gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
 }}
 
