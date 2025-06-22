@@ -443,7 +443,8 @@ if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("CRT_mask"), gdjs.menuCode.GDCRT_9595maskObjects2);
 gdjs.copyArray(runtimeScene.getObjects("introflashbang"), gdjs.menuCode.GDintroflashbangObjects2);
 gdjs.copyArray(runtimeScene.getObjects("logo"), gdjs.menuCode.GDlogoObjects2);
-{gdjs.scene3d.camera.setFarPlane(runtimeScene, 1000, "bg", 0);
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Flashbang Sound Effect (mp3cut.net) (1).mp3", 2, false, 50, 1);
+}{gdjs.scene3d.camera.setFarPlane(runtimeScene, 1000, "bg", 0);
 }{for(var i = 0, len = gdjs.menuCode.GDlogoObjects2.length ;i < len;++i) {
     gdjs.menuCode.GDlogoObjects2[i].setGradient("LINEAR_VERTICAL", "255;0;0", "173;0;0", "", "");
 }
