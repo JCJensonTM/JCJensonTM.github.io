@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__CameraFOV !== "undefined") {
 gdjs.evtsExt__WithThreeJS__CameraFOV = {};
 
 
-gdjs.evtsExt__WithThreeJS__CameraFOV.userFunc0x90e778 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__CameraFOV.userFunc0x11dc4c0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -26,7 +26,7 @@ gdjs.evtsExt__WithThreeJS__CameraFOV.eventsList0 = function(runtimeScene, events
 {
 
 
-gdjs.evtsExt__WithThreeJS__CameraFOV.userFunc0x90e778(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__CameraFOV.userFunc0x11dc4c0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

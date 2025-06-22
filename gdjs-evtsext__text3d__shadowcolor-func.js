@@ -9,7 +9,7 @@ gdjs.evtsExt__Text3D__ShadowColor = {};
 gdjs.evtsExt__Text3D__ShadowColor.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Text3D__ShadowColor.userFunc0x194b300 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__ShadowColor.userFunc0xa7ded0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.TextRuntimeObject} */
 const object = objects[0];
@@ -25,7 +25,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D_
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Text3D__ShadowColor.GDObjectObjects1);
-gdjs.evtsExt__Text3D__ShadowColor.userFunc0x194b300(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Text3D__ShadowColor.userFunc0xa7ded0(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

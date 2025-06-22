@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__Collision3D__DefineHelperClasses !== "undefined") {
 gdjs.evtsExt__Collision3D__DefineHelperClasses = {};
 
 
-gdjs.evtsExt__Collision3D__DefineHelperClasses.userFunc0x1a269c0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Collision3D__DefineHelperClasses.userFunc0x1a0eac0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (gdjs._collision3DExtension) {
     return;
@@ -442,7 +442,7 @@ gdjs.evtsExt__Collision3D__DefineHelperClasses.eventsList0 = function(runtimeSce
 {
 
 
-gdjs.evtsExt__Collision3D__DefineHelperClasses.userFunc0x1a269c0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Collision3D__DefineHelperClasses.userFunc0x1a0eac0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__SetupMultiple3DCameras !== "undefined") {
 gdjs.evtsExt__WithThreeJS__SetupMultiple3DCameras = {};
 
 
-gdjs.evtsExt__WithThreeJS__SetupMultiple3DCameras.userFunc0xa6d300 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__SetupMultiple3DCameras.userFunc0xa5b6e8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -66,7 +66,7 @@ gdjs.evtsExt__WithThreeJS__SetupMultiple3DCameras.eventsList0 = function(runtime
 {
 
 
-gdjs.evtsExt__WithThreeJS__SetupMultiple3DCameras.userFunc0xa6d300(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__SetupMultiple3DCameras.userFunc0xa5b6e8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

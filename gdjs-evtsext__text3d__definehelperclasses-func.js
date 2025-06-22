@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__Text3D__DefineHelperClasses !== "undefined") {
 gdjs.evtsExt__Text3D__DefineHelperClasses = {};
 
 
-gdjs.evtsExt__Text3D__DefineHelperClasses.userFunc0x194b300 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__DefineHelperClasses.userFunc0x9e5330 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (gdjs.__text3DExtension) {
     return;
@@ -6247,7 +6247,7 @@ gdjs.evtsExt__Text3D__DefineHelperClasses.eventsList0 = function(runtimeScene, e
 {
 
 
-gdjs.evtsExt__Text3D__DefineHelperClasses.userFunc0x194b300(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Text3D__DefineHelperClasses.userFunc0x9e5330(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__onSceneUnloading !== "undefined") {
 gdjs.evtsExt__WithThreeJS__onSceneUnloading = {};
 
 
-gdjs.evtsExt__WithThreeJS__onSceneUnloading.userFunc0xb080a0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__onSceneUnloading.userFunc0xb10710 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (gdjs.__WithThreeJS.get("BuiltIn3D")) {
     if (runtimeScene.getRenderer()._threeRenderer._render_WithThreeJS) {
@@ -34,7 +34,7 @@ gdjs.evtsExt__WithThreeJS__onSceneUnloading.eventsList0 = function(runtimeScene,
 {
 
 
-gdjs.evtsExt__WithThreeJS__onSceneUnloading.userFunc0xb080a0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__onSceneUnloading.userFunc0xb10710(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

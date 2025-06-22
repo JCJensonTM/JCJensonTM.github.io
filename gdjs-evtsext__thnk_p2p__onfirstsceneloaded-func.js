@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__THNK_P2P__onFirstSceneLoaded !== "undefined") {
 gdjs.evtsExt__THNK_P2P__onFirstSceneLoaded = {};
 
 
-gdjs.evtsExt__THNK_P2P__onFirstSceneLoaded.userFunc0x1a36850 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__THNK_P2P__onFirstSceneLoaded.userFunc0x1a0eac0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // Load THNK P2P Adapter (https://github.com/arthuro555/THNK)
 "use strict";
@@ -127,7 +127,7 @@ gdjs.evtsExt__THNK_P2P__onFirstSceneLoaded.eventsList0 = function(runtimeScene, 
 {
 
 
-gdjs.evtsExt__THNK_P2P__onFirstSceneLoaded.userFunc0x1a36850(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__THNK_P2P__onFirstSceneLoaded.userFunc0x1a0eac0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

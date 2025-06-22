@@ -817,7 +817,7 @@ gdjs.evtsExt__Tween3D__Tween3D.Tween3D.prototype.TintContext = {};
 gdjs.evtsExt__Tween3D__Tween3D.Tween3D.prototype.TintContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Tween3D__Tween3D.Tween3D.prototype.TintContext.userFunc0x13fa060 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Tween3D__Tween3D.Tween3D.prototype.TintContext.userFunc0xb080a0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 if (!runtimeScene.__tween3DExtension) {
   runtimeScene.__tween3DExtension = {
@@ -848,7 +848,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Tween3D
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Tween3D__Tween3D.Tween3D.prototype.TintContext.GDObjectObjects1);
-gdjs.evtsExt__Tween3D__Tween3D.Tween3D.prototype.TintContext.userFunc0x13fa060(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Tween3D__Tween3D.Tween3D.prototype.TintContext.userFunc0xb080a0(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -4812,7 +4812,7 @@ gdjs.evtsExt__Tween3D__Tween3D.Tween3D.prototype.TweenIdentifierContext = {};
 gdjs.evtsExt__Tween3D__Tween3D.Tween3D.prototype.TweenIdentifierContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Tween3D__Tween3D.Tween3D.prototype.TweenIdentifierContext.userFunc0x13fa270 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Tween3D__Tween3D.Tween3D.prototype.TweenIdentifierContext.userFunc0xbabf68 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 
@@ -4834,7 +4834,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Tween3D
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Tween3D__Tween3D.Tween3D.prototype.TweenIdentifierContext.GDObjectObjects1);
-gdjs.evtsExt__Tween3D__Tween3D.Tween3D.prototype.TweenIdentifierContext.userFunc0x13fa270(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Tween3D__Tween3D.Tween3D.prototype.TweenIdentifierContext.userFunc0xbabf68(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -4919,7 +4919,7 @@ gdjs.evtsExt__Tween3D__Tween3D.Tween3D.prototype.InvalidateTweenIdentifiersConte
 gdjs.evtsExt__Tween3D__Tween3D.Tween3D.prototype.InvalidateTweenIdentifiersContext.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__Tween3D__Tween3D.Tween3D.prototype.InvalidateTweenIdentifiersContext.userFunc0x12f8b40 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Tween3D__Tween3D.Tween3D.prototype.InvalidateTweenIdentifiersContext.userFunc0xbabef0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const object = objects[0];
 
@@ -4935,7 +4935,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Tween3D
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Tween3D__Tween3D.Tween3D.prototype.InvalidateTweenIdentifiersContext.GDObjectObjects1);
-gdjs.evtsExt__Tween3D__Tween3D.Tween3D.prototype.InvalidateTweenIdentifiersContext.userFunc0x12f8b40(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Tween3D__Tween3D.Tween3D.prototype.InvalidateTweenIdentifiersContext.userFunc0xbabef0(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

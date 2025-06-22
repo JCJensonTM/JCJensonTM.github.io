@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__Create3DSceneV2 !== "undefined") {
 gdjs.evtsExt__WithThreeJS__Create3DSceneV2 = {};
 
 
-gdjs.evtsExt__WithThreeJS__Create3DSceneV2.userFunc0xa51180 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__Create3DSceneV2.userFunc0x13689f8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // console.log("Three.js create scene");
 // v5.1.162 以上で Built-In 3D がゲームに含まれている
@@ -261,7 +261,7 @@ gdjs.evtsExt__WithThreeJS__Create3DSceneV2.eventsList0 = function(runtimeScene, 
 {
 
 
-gdjs.evtsExt__WithThreeJS__Create3DSceneV2.userFunc0xa51180(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__Create3DSceneV2.userFunc0x13689f8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

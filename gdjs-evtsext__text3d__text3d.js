@@ -107,7 +107,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.onCreatedContext.eventsList0 = fun
 }
 
 
-};gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.onCreatedContext.userFunc0x194be58 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+};gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.onCreatedContext.userFunc0x195ac78 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const { Text, Text3DRenderer } = gdjs.__text3DExtension;
 
@@ -170,7 +170,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D_
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.onCreatedContext.GDObjectObjects1);
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.onCreatedContext.userFunc0x194be58(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.onCreatedContext.userFunc0x195ac78(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -277,7 +277,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.doStepPostEventsContext.GDTextObje
 gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.doStepPostEventsContext.GDTextObjects2= [];
 
 
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.doStepPostEventsContext.userFunc0x1946ca8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.doStepPostEventsContext.userFunc0x193f180 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject3D} */
 const object = objects[0];
@@ -317,7 +317,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D_
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.doStepPostEventsContext.GDObjectObjects1);
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.doStepPostEventsContext.userFunc0x1946ca8(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.doStepPostEventsContext.userFunc0x193f180(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -423,7 +423,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateTextContext.GDTextObjects1= 
 gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateTextContext.GDTextObjects2= [];
 
 
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateTextContext.userFunc0x194e4a0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateTextContext.userFunc0x1957d10 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject3D} */
 const object = objects[0];
@@ -441,7 +441,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateTextContext.eventsList0 = fu
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateTextContext.GDObjectObjects1);
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateTextContext.userFunc0x194e4a0(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateTextContext.userFunc0x1957d10(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -558,7 +558,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.IsTextUpToDateContext.GDObjectObje
 gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.IsTextUpToDateContext.GDTextObjects1= [];
 
 
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.IsTextUpToDateContext.userFunc0x1946c90 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.IsTextUpToDateContext.userFunc0x193f180 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject3D} */
 const object = objects[0];
@@ -575,7 +575,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D_
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.IsTextUpToDateContext.GDObjectObjects1);
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.IsTextUpToDateContext.userFunc0x1946c90(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.IsTextUpToDateContext.userFunc0x193f180(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -664,7 +664,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateGeometryContext.GDTextObject
 gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateGeometryContext.GDTextObjects2= [];
 
 
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateGeometryContext.userFunc0xa79978 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateGeometryContext.userFunc0x193f180 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject3D} */
 const object = objects[0];
@@ -681,7 +681,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D_
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateGeometryContext.GDObjectObjects1);
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateGeometryContext.userFunc0xa79978(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateGeometryContext.userFunc0x193f180(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -790,7 +790,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.HasGeometryUpdatedContext.GDObject
 gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.HasGeometryUpdatedContext.GDTextObjects1= [];
 
 
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.HasGeometryUpdatedContext.userFunc0x1985968 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.HasGeometryUpdatedContext.userFunc0x1953e20 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject3D} */
 const object = objects[0];
@@ -807,7 +807,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D_
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.HasGeometryUpdatedContext.GDObjectObjects1);
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.HasGeometryUpdatedContext.userFunc0x1985968(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.HasGeometryUpdatedContext.userFunc0x1953e20(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -1283,7 +1283,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.TextWidthContext.GDObjectObjects1=
 gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.TextWidthContext.GDTextObjects1= [];
 
 
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.TextWidthContext.userFunc0x19749f8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.TextWidthContext.userFunc0x1957d10 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject3D} */
 const object = objects[0];
@@ -1300,7 +1300,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D_
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.TextWidthContext.GDObjectObjects1);
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.TextWidthContext.userFunc0x19749f8(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.TextWidthContext.userFunc0x1957d10(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -1386,7 +1386,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.TextHeightContext.GDObjectObjects1
 gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.TextHeightContext.GDTextObjects1= [];
 
 
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.TextHeightContext.userFunc0x19749f8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.TextHeightContext.userFunc0x1957d10 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject3D} */
 const object = objects[0];
@@ -1403,7 +1403,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D_
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.TextHeightContext.GDObjectObjects1);
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.TextHeightContext.userFunc0x19749f8(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.TextHeightContext.userFunc0x1957d10(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -1591,7 +1591,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetFontSizeContext.GDTextObjects1=
 gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetFontSizeContext.GDTextObjects2= [];
 
 
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetFontSizeContext.userFunc0x1965070 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetFontSizeContext.userFunc0x1941568 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject3D} */
 const object = objects[0];
@@ -1633,7 +1633,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D_
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetFontSizeContext.GDObjectObjects1);
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetFontSizeContext.userFunc0x1965070(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetFontSizeContext.userFunc0x1941568(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -2206,7 +2206,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateWrappingWidthContext.GDTextO
 gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateWrappingWidthContext.GDTextObjects2= [];
 
 
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateWrappingWidthContext.userFunc0x195b848 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateWrappingWidthContext.userFunc0x19709a0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject3D} */
 const object = objects[0];
@@ -2244,7 +2244,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D_
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateWrappingWidthContext.GDObjectObjects1);
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateWrappingWidthContext.userFunc0x195b848(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateWrappingWidthContext.userFunc0x19709a0(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -2438,7 +2438,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetColorContext.GDTextObjects1= []
 gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetColorContext.GDTextObjects2= [];
 
 
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetColorContext.userFunc0x1946cb8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetColorContext.userFunc0x1957d10 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject3D} */
 const object = objects[0];
@@ -2469,7 +2469,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D_
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetColorContext.GDObjectObjects1);
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetColorContext.userFunc0x1946cb8(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetColorContext.userFunc0x1957d10(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -2664,7 +2664,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetFontContext.GDTextObjects2= [];
 
 
 gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetFontContext.mapOfGDgdjs_9546evtsExt_9595_9595Text3D_9595_9595Text3D_9546Text3D_9546prototype_9546SetFontContext_9546GDTextObjects1Objects = Hashtable.newFrom({"Text": gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetFontContext.GDTextObjects1});
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetFontContext.userFunc0x195b848 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetFontContext.userFunc0x193e998 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject3D} */
 const object = objects[0];
@@ -2705,7 +2705,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D_
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetFontContext.GDObjectObjects1);
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetFontContext.userFunc0x195b848(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetFontContext.userFunc0x193e998(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -2897,7 +2897,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetLineSpacingContext.GDTextObject
 gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetLineSpacingContext.GDTextObjects2= [];
 
 
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetLineSpacingContext.userFunc0x197d568 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetLineSpacingContext.userFunc0x193f908 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject3D} */
 const object = objects[0];
@@ -2936,7 +2936,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D_
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetLineSpacingContext.GDObjectObjects1);
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetLineSpacingContext.userFunc0x197d568(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetLineSpacingContext.userFunc0x193f908(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -3499,7 +3499,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateOutlineThicknessContext.GDTe
 gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateOutlineThicknessContext.GDTextObjects2= [];
 
 
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateOutlineThicknessContext.userFunc0x19a6548 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateOutlineThicknessContext.userFunc0x1999568 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject3D} */
 const object = objects[0];
@@ -3537,7 +3537,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D_
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateOutlineThicknessContext.GDObjectObjects1);
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateOutlineThicknessContext.userFunc0x19a6548(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateOutlineThicknessContext.userFunc0x1999568(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -3731,7 +3731,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetOutlineColorContext.GDTextObjec
 gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetOutlineColorContext.GDTextObjects2= [];
 
 
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetOutlineColorContext.userFunc0x19a79f0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetOutlineColorContext.userFunc0x199a850 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject3D} */
 const object = objects[0];
@@ -3748,7 +3748,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetOutlineColorContext.eventsList0
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetOutlineColorContext.GDObjectObjects1);
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetOutlineColorContext.userFunc0x19a79f0(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetOutlineColorContext.userFunc0x199a850(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -4234,7 +4234,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetShadowColorContext.GDTextObject
 gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetShadowColorContext.GDTextObjects2= [];
 
 
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetShadowColorContext.userFunc0x19a9428 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetShadowColorContext.userFunc0x199bfe8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject3D} */
 const object = objects[0];
@@ -4251,7 +4251,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetShadowColorContext.eventsList0 
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetShadowColorContext.GDObjectObjects1);
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetShadowColorContext.userFunc0x19a9428(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetShadowColorContext.userFunc0x199bfe8(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -4843,7 +4843,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateShadowOffsetContext.GDTextOb
 gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateShadowOffsetContext.GDTextObjects2= [];
 
 
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateShadowOffsetContext.userFunc0x19acf08 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateShadowOffsetContext.userFunc0x199f288 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject3D} */
 const object = objects[0];
@@ -4918,7 +4918,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D_
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateShadowOffsetContext.GDObjectObjects1);
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateShadowOffsetContext.userFunc0x19acf08(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateShadowOffsetContext.userFunc0x199f288(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -5241,7 +5241,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateShadowBlurRadiusContext.GDTe
 gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateShadowBlurRadiusContext.GDTextObjects2= [];
 
 
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateShadowBlurRadiusContext.userFunc0x19ae930 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateShadowBlurRadiusContext.userFunc0x19a0898 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject3D} */
 const object = objects[0];
@@ -5280,7 +5280,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D_
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateShadowBlurRadiusContext.GDObjectObjects1);
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateShadowBlurRadiusContext.userFunc0x19ae930(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateShadowBlurRadiusContext.userFunc0x19a0898(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -5602,7 +5602,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateShadowOpacityContext.GDTextO
 gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateShadowOpacityContext.GDTextObjects2= [];
 
 
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateShadowOpacityContext.userFunc0x19b0368 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateShadowOpacityContext.userFunc0x19a1f28 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject3D} */
 const object = objects[0];
@@ -5640,7 +5640,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D_
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateShadowOpacityContext.GDObjectObjects1);
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateShadowOpacityContext.userFunc0x19b0368(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.UpdateShadowOpacityContext.userFunc0x19a1f28(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -5842,7 +5842,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetBoldContext.GDTextObjects1= [];
 gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetBoldContext.GDTextObjects2= [];
 
 
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetBoldContext.userFunc0x1946cb8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetBoldContext.userFunc0x1957d10 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject3D} */
 const object = objects[0];
@@ -5893,7 +5893,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D_
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetBoldContext.GDObjectObjects1);
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetBoldContext.userFunc0x1946cb8(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetBoldContext.userFunc0x1957d10(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -6095,7 +6095,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetItalicContext.GDTextObjects1= [
 gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetItalicContext.GDTextObjects2= [];
 
 
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetItalicContext.userFunc0x1946cb8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetItalicContext.userFunc0x1957d10 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject3D} */
 const object = objects[0];
@@ -6146,7 +6146,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D_
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetItalicContext.GDObjectObjects1);
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetItalicContext.userFunc0x1946cb8(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetItalicContext.userFunc0x1957d10(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
@@ -6388,7 +6388,7 @@ gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetTextAlignmentContext.GDTextObje
 gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetTextAlignmentContext.GDTextObjects2= [];
 
 
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetTextAlignmentContext.userFunc0x19b0740 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetTextAlignmentContext.userFunc0x19a2300 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject3D} */
 const object = objects[0];
@@ -6430,7 +6430,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Text3D_
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetTextAlignmentContext.GDObjectObjects1);
-gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetTextAlignmentContext.userFunc0x19b0740(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Text3D__Text3D.Text3D.prototype.SetTextAlignmentContext.userFunc0x19a2300(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

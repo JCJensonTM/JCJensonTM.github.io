@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__ObjectAnimationTime !== "undefined") {
 gdjs.evtsExt__WithThreeJS__ObjectAnimationTime = {};
 
 
-gdjs.evtsExt__WithThreeJS__ObjectAnimationTime.userFunc0x1a46960 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__ObjectAnimationTime.userFunc0x1a37e38 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -45,7 +45,7 @@ gdjs.evtsExt__WithThreeJS__ObjectAnimationTime.eventsList0 = function(runtimeSce
 {
 
 
-gdjs.evtsExt__WithThreeJS__ObjectAnimationTime.userFunc0x1a46960(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__ObjectAnimationTime.userFunc0x1a37e38(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

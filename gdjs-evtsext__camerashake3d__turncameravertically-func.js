@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__CameraShake3D__TurnCameraVertically !== "undefined") {
 gdjs.evtsExt__CameraShake3D__TurnCameraVertically = {};
 
 
-gdjs.evtsExt__CameraShake3D__TurnCameraVertically.userFunc0x19fda18 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__CameraShake3D__TurnCameraVertically.userFunc0x1997a88 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const angle = eventsFunctionContext.getArgument("Angle");
 const layerName = eventsFunctionContext.getArgument("NewLayer");
@@ -33,7 +33,7 @@ gdjs.evtsExt__CameraShake3D__TurnCameraVertically.eventsList0 = function(runtime
 
 
 var objects = [];
-gdjs.evtsExt__CameraShake3D__TurnCameraVertically.userFunc0x19fda18(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__CameraShake3D__TurnCameraVertically.userFunc0x1997a88(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

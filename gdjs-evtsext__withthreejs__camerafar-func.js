@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__CameraFar !== "undefined") {
 gdjs.evtsExt__WithThreeJS__CameraFar = {};
 
 
-gdjs.evtsExt__WithThreeJS__CameraFar.userFunc0x1204830 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__CameraFar.userFunc0x1a21d10 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -26,7 +26,7 @@ gdjs.evtsExt__WithThreeJS__CameraFar.eventsList0 = function(runtimeScene, events
 {
 
 
-gdjs.evtsExt__WithThreeJS__CameraFar.userFunc0x1204830(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__CameraFar.userFunc0x1a21d10(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

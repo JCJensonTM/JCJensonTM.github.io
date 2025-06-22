@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__CameraShake3D__Noise4d !== "undefined") {
 gdjs.evtsExt__CameraShake3D__Noise4d = {};
 
 
-gdjs.evtsExt__CameraShake3D__Noise4d.userFunc0x1a0ea28 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__CameraShake3D__Noise4d.userFunc0x1997a88 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const name = eventsFunctionContext.getArgument("Name");
 const x = eventsFunctionContext.getArgument("X");
@@ -23,7 +23,7 @@ gdjs.evtsExt__CameraShake3D__Noise4d.eventsList0 = function(runtimeScene, events
 {
 
 
-gdjs.evtsExt__CameraShake3D__Noise4d.userFunc0x1a0ea28(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__CameraShake3D__Noise4d.userFunc0x1997a88(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

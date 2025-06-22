@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__LerpCamera !== "undefined") {
 gdjs.evtsExt__WithThreeJS__LerpCamera = {};
 
 
-gdjs.evtsExt__WithThreeJS__LerpCamera.userFunc0xea6e90 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__LerpCamera.userFunc0xb10450 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -45,7 +45,7 @@ gdjs.evtsExt__WithThreeJS__LerpCamera.eventsList0 = function(runtimeScene, event
 {
 
 
-gdjs.evtsExt__WithThreeJS__LerpCamera.userFunc0xea6e90(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__LerpCamera.userFunc0xb10450(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

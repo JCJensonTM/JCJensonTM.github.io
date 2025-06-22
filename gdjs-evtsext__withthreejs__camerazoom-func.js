@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__CameraZoom !== "undefined") {
 gdjs.evtsExt__WithThreeJS__CameraZoom = {};
 
 
-gdjs.evtsExt__WithThreeJS__CameraZoom.userFunc0x903858 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__CameraZoom.userFunc0xa47440 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -26,7 +26,7 @@ gdjs.evtsExt__WithThreeJS__CameraZoom.eventsList0 = function(runtimeScene, event
 {
 
 
-gdjs.evtsExt__WithThreeJS__CameraZoom.userFunc0x903858(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__CameraZoom.userFunc0xa47440(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

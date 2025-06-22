@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__SetNumberVariable !== "undefined") {
 gdjs.evtsExt__WithThreeJS__SetNumberVariable = {};
 
 
-gdjs.evtsExt__WithThreeJS__SetNumberVariable.userFunc0xbab780 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__SetNumberVariable.userFunc0x1a19970 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -50,7 +50,7 @@ gdjs.evtsExt__WithThreeJS__SetNumberVariable.eventsList0 = function(runtimeScene
 {
 
 
-gdjs.evtsExt__WithThreeJS__SetNumberVariable.userFunc0xbab780(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__SetNumberVariable.userFunc0x1a19970(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__ResolveBoundingBoxCollisionV2 !== "undefin
 gdjs.evtsExt__WithThreeJS__ResolveBoundingBoxCollisionV2 = {};
 
 
-gdjs.evtsExt__WithThreeJS__ResolveBoundingBoxCollisionV2.userFunc0x908288 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__ResolveBoundingBoxCollisionV2.userFunc0x19264a0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -54,7 +54,7 @@ gdjs.evtsExt__WithThreeJS__ResolveBoundingBoxCollisionV2.eventsList0 = function(
 {
 
 
-gdjs.evtsExt__WithThreeJS__ResolveBoundingBoxCollisionV2.userFunc0x908288(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__ResolveBoundingBoxCollisionV2.userFunc0x19264a0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

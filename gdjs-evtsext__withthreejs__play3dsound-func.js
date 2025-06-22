@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__Play3DSound !== "undefined") {
 gdjs.evtsExt__WithThreeJS__Play3DSound = {};
 
 
-gdjs.evtsExt__WithThreeJS__Play3DSound.userFunc0xc52518 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__Play3DSound.userFunc0x1a48758 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -65,7 +65,7 @@ gdjs.evtsExt__WithThreeJS__Play3DSound.eventsList0 = function(runtimeScene, even
 {
 
 
-gdjs.evtsExt__WithThreeJS__Play3DSound.userFunc0xc52518(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__Play3DSound.userFunc0x1a48758(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

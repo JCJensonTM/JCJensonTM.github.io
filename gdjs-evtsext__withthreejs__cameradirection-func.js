@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__CameraDirection !== "undefined") {
 gdjs.evtsExt__WithThreeJS__CameraDirection = {};
 
 
-gdjs.evtsExt__WithThreeJS__CameraDirection.userFunc0xb2a3c0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__CameraDirection.userFunc0x11dc4c0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -36,7 +36,7 @@ gdjs.evtsExt__WithThreeJS__CameraDirection.eventsList0 = function(runtimeScene, 
 {
 
 
-gdjs.evtsExt__WithThreeJS__CameraDirection.userFunc0xb2a3c0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__CameraDirection.userFunc0x11dc4c0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

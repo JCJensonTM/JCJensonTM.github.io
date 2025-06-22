@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__CameraShake3D__onFirstSceneLoaded !== "undefined") {
 gdjs.evtsExt__CameraShake3D__onFirstSceneLoaded = {};
 
 
-gdjs.evtsExt__CameraShake3D__onFirstSceneLoaded.userFunc0x19fda18 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__CameraShake3D__onFirstSceneLoaded.userFunc0x1997a88 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (gdjs._cameraShake3DExtension) {
     return;
@@ -649,7 +649,7 @@ gdjs.evtsExt__CameraShake3D__onFirstSceneLoaded.eventsList0 = function(runtimeSc
 {
 
 
-gdjs.evtsExt__CameraShake3D__onFirstSceneLoaded.userFunc0x19fda18(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__CameraShake3D__onFirstSceneLoaded.userFunc0x1997a88(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
