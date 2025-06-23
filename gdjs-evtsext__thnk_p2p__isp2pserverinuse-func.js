@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__THNK_P2P__IsP2PServerInUse !== "undefined") {
 gdjs.evtsExt__THNK_P2P__IsP2PServerInUse = {};
 
 
-gdjs.evtsExt__THNK_P2P__IsP2PServerInUse.userFunc0x1a0eac0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__THNK_P2P__IsP2PServerInUse.userFunc0x1a31eb0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = runtimeScene.thnkServer && runtimeScene.thnkServer.adapter instanceof THNK.P2PServerAdapter;
 
@@ -18,7 +18,7 @@ gdjs.evtsExt__THNK_P2P__IsP2PServerInUse.eventsList0 = function(runtimeScene, ev
 {
 
 
-gdjs.evtsExt__THNK_P2P__IsP2PServerInUse.userFunc0x1a0eac0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__THNK_P2P__IsP2PServerInUse.userFunc0x1a31eb0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

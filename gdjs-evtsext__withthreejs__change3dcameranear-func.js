@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__Change3DCameraNear !== "undefined") {
 gdjs.evtsExt__WithThreeJS__Change3DCameraNear = {};
 
 
-gdjs.evtsExt__WithThreeJS__Change3DCameraNear.userFunc0xac09f0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__Change3DCameraNear.userFunc0xe02cc8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -36,7 +36,7 @@ gdjs.evtsExt__WithThreeJS__Change3DCameraNear.eventsList0 = function(runtimeScen
 {
 
 
-gdjs.evtsExt__WithThreeJS__Change3DCameraNear.userFunc0xac09f0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__Change3DCameraNear.userFunc0xe02cc8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

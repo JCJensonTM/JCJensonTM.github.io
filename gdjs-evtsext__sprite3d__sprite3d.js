@@ -89,7 +89,7 @@ gdjs.evtsExt__Sprite3D__Sprite3D.Sprite3D.prototype.onCreatedContext.GDObjectObj
 gdjs.evtsExt__Sprite3D__Sprite3D.Sprite3D.prototype.onCreatedContext.GDObjectObjects2= [];
 
 
-gdjs.evtsExt__Sprite3D__Sprite3D.Sprite3D.prototype.onCreatedContext.userFunc0x194af40 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__Sprite3D__Sprite3D.Sprite3D.prototype.onCreatedContext.userFunc0x194c900 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 /** @type {gdjs.CustomRuntimeObject} */
 const object = objects[0];
@@ -117,7 +117,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__Sprite3
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__Sprite3D__Sprite3D.Sprite3D.prototype.onCreatedContext.GDObjectObjects1);
-gdjs.evtsExt__Sprite3D__Sprite3D.Sprite3D.prototype.onCreatedContext.userFunc0x194af40(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Sprite3D__Sprite3D.Sprite3D.prototype.onCreatedContext.userFunc0x194c900(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

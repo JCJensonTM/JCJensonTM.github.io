@@ -19,7 +19,7 @@ gdjs.evtsExt__A3F__LookAtPosition.GDObjectObjects2= [];
 gdjs.evtsExt__A3F__LookAtPosition.GDObjectObjects3= [];
 
 
-gdjs.evtsExt__A3F__LookAtPosition.userFunc0x13d9a90 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__A3F__LookAtPosition.userFunc0x1245560 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const Object2D = objects[0];
 const Object3D = Object2D.get3DRendererObject();
@@ -50,7 +50,7 @@ gdjs.copyArray(gdjs.evtsExt__A3F__LookAtPosition.GDObjectObjects2, gdjs.evtsExt_
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__A3F__LookAtPosition.GDObjectObjects3);
-gdjs.evtsExt__A3F__LookAtPosition.userFunc0x13d9a90(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__A3F__LookAtPosition.userFunc0x1245560(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

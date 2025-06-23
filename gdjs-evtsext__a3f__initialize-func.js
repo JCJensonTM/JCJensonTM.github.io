@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__A3F__Initialize !== "undefined") {
 gdjs.evtsExt__A3F__Initialize = {};
 
 
-gdjs.evtsExt__A3F__Initialize.userFunc0xb319e8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__A3F__Initialize.userFunc0x128caa0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (gdjs._A3F) return;
 gdjs._A3F = {};
@@ -67,7 +67,7 @@ gdjs.evtsExt__A3F__Initialize.eventsList0 = function(runtimeScene, eventsFunctio
 {
 
 
-gdjs.evtsExt__A3F__Initialize.userFunc0xb319e8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__A3F__Initialize.userFunc0x128caa0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

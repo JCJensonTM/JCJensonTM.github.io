@@ -230,7 +230,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.isKeyPressed(runtimeScene, "Space");
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23967300);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(23967540);
 }
 }
 }
@@ -3688,7 +3688,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.testing_32groundCode.asyncCallback24450044 = function (runtimeScene, asyncObjectsList) {
+};gdjs.testing_32groundCode.asyncCallback24450308 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.testing_32groundCode.localVariables);
 
 { //Subevents
@@ -3705,7 +3705,7 @@ gdjs.testing_32groundCode.eventsList84 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.testing_32groundCode.localVariables);
 for (const obj of gdjs.testing_32groundCode.GDP1Objects5) asyncObjectsList.addObject("P1", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.testing_32groundCode.asyncCallback24450044(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.testing_32groundCode.asyncCallback24450308(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -3791,7 +3791,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.testing_32groundCode.asyncCallback24453908 = function (runtimeScene, asyncObjectsList) {
+};gdjs.testing_32groundCode.asyncCallback24454172 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.testing_32groundCode.localVariables);
 
 { //Subevents
@@ -3808,7 +3808,7 @@ gdjs.testing_32groundCode.eventsList87 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.testing_32groundCode.localVariables);
 for (const obj of gdjs.testing_32groundCode.GDP2Objects5) asyncObjectsList.addObject("P2", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.testing_32groundCode.asyncCallback24453908(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.testing_32groundCode.asyncCallback24454172(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -3894,7 +3894,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.testing_32groundCode.asyncCallback24457868 = function (runtimeScene, asyncObjectsList) {
+};gdjs.testing_32groundCode.asyncCallback24458132 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.testing_32groundCode.localVariables);
 
 { //Subevents
@@ -3911,7 +3911,7 @@ gdjs.testing_32groundCode.eventsList90 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.testing_32groundCode.localVariables);
 for (const obj of gdjs.testing_32groundCode.GDP3Objects5) asyncObjectsList.addObject("P3", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.testing_32groundCode.asyncCallback24457868(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.testing_32groundCode.asyncCallback24458132(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -3997,7 +3997,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.testing_32groundCode.asyncCallback24461956 = function (runtimeScene, asyncObjectsList) {
+};gdjs.testing_32groundCode.asyncCallback24462220 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.testing_32groundCode.localVariables);
 
 { //Subevents
@@ -4014,7 +4014,7 @@ gdjs.testing_32groundCode.eventsList93 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.testing_32groundCode.localVariables);
 for (const obj of gdjs.testing_32groundCode.GDP4Objects5) asyncObjectsList.addObject("P4", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.testing_32groundCode.asyncCallback24461956(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.testing_32groundCode.asyncCallback24462220(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -4100,7 +4100,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.testing_32groundCode.asyncCallback24465804 = function (runtimeScene, asyncObjectsList) {
+};gdjs.testing_32groundCode.asyncCallback24466068 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.testing_32groundCode.localVariables);
 
 { //Subevents
@@ -4117,7 +4117,7 @@ gdjs.testing_32groundCode.eventsList96 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.testing_32groundCode.localVariables);
 for (const obj of gdjs.testing_32groundCode.GDP5Objects5) asyncObjectsList.addObject("P5", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.testing_32groundCode.asyncCallback24465804(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.testing_32groundCode.asyncCallback24466068(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -4203,7 +4203,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.testing_32groundCode.asyncCallback24469812 = function (runtimeScene, asyncObjectsList) {
+};gdjs.testing_32groundCode.asyncCallback24470076 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.testing_32groundCode.localVariables);
 
 { //Subevents
@@ -4220,7 +4220,7 @@ gdjs.testing_32groundCode.eventsList99 = function(runtimeScene) {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.testing_32groundCode.localVariables);
 for (const obj of gdjs.testing_32groundCode.GDP6Objects4) asyncObjectsList.addObject("P6", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.testing_32groundCode.asyncCallback24469812(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1), (runtimeScene) => (gdjs.testing_32groundCode.asyncCallback24470076(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -4828,7 +4828,7 @@ gdjs.testing_32groundCode.eventsList106(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.p2p.onEvent("AssignP1", false);
+isConditionTrue_0 = gdjs.evtTools.p2p.onEvent("AssignP1", true);
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(9).setString("P1");
 }}
@@ -4841,7 +4841,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.p2p.onEvent("AssignP2", false);
+isConditionTrue_0 = gdjs.evtTools.p2p.onEvent("AssignP2", true);
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(9).setString("P2");
 }}
@@ -4854,7 +4854,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.p2p.onEvent("AssignP3", false);
+isConditionTrue_0 = gdjs.evtTools.p2p.onEvent("AssignP3", true);
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(9).setString("P3");
 }}
@@ -4867,7 +4867,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.p2p.onEvent("AssignP4", false);
+isConditionTrue_0 = gdjs.evtTools.p2p.onEvent("AssignP4", true);
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(9).setString("P4");
 }}
@@ -4880,7 +4880,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.p2p.onEvent("AssignP5", false);
+isConditionTrue_0 = gdjs.evtTools.p2p.onEvent("AssignP5", true);
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(9).setString("P5");
 }}
@@ -4893,7 +4893,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.p2p.onEvent("AssignP6", false);
+isConditionTrue_0 = gdjs.evtTools.p2p.onEvent("AssignP6", true);
 if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(9).setString("P6");
 }}
@@ -5474,7 +5474,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.p2p.onEvent("ChooseTeamLorem", false);
+isConditionTrue_0 = gdjs.evtTools.p2p.onEvent("ChooseTeamLorem", true);
 if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().getFromIndex(8).add(1);
 }
@@ -5490,7 +5490,7 @@ gdjs.testing_32groundCode.eventsList114(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.p2p.onEvent("ChooseTeamIpsum", false);
+isConditionTrue_0 = gdjs.evtTools.p2p.onEvent("ChooseTeamIpsum", true);
 if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().getFromIndex(9).add(1);
 }

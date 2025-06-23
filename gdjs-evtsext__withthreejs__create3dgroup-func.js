@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__Create3DGroup !== "undefined") {
 gdjs.evtsExt__WithThreeJS__Create3DGroup = {};
 
 
-gdjs.evtsExt__WithThreeJS__Create3DGroup.userFunc0xb8ee70 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__Create3DGroup.userFunc0x1276930 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -35,7 +35,7 @@ gdjs.evtsExt__WithThreeJS__Create3DGroup.eventsList0 = function(runtimeScene, ev
 {
 
 
-gdjs.evtsExt__WithThreeJS__Create3DGroup.userFunc0xb8ee70(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__Create3DGroup.userFunc0x1276930(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

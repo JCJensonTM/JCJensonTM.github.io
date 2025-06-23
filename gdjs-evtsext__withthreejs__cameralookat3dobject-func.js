@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__CameraLookAt3DObject !== "undefined") {
 gdjs.evtsExt__WithThreeJS__CameraLookAt3DObject = {};
 
 
-gdjs.evtsExt__WithThreeJS__CameraLookAt3DObject.userFunc0xbc0318 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__CameraLookAt3DObject.userFunc0x134e048 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -37,7 +37,7 @@ gdjs.evtsExt__WithThreeJS__CameraLookAt3DObject.eventsList0 = function(runtimeSc
 {
 
 
-gdjs.evtsExt__WithThreeJS__CameraLookAt3DObject.userFunc0xbc0318(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__CameraLookAt3DObject.userFunc0x134e048(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

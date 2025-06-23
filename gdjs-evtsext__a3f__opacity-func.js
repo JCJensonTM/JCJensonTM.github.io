@@ -9,7 +9,7 @@ gdjs.evtsExt__A3F__Opacity = {};
 gdjs.evtsExt__A3F__Opacity.GDObjectObjects1= [];
 
 
-gdjs.evtsExt__A3F__Opacity.userFunc0xa488e0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__A3F__Opacity.userFunc0x13e43f0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = 255;
 if (objects.length == 0) {
@@ -46,7 +46,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__A3F__Op
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__A3F__Opacity.GDObjectObjects1);
-gdjs.evtsExt__A3F__Opacity.userFunc0xa488e0(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__A3F__Opacity.userFunc0x13e43f0(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

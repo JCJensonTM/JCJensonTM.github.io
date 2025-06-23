@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__ObjectOpacity !== "undefined") {
 gdjs.evtsExt__WithThreeJS__ObjectOpacity = {};
 
 
-gdjs.evtsExt__WithThreeJS__ObjectOpacity.userFunc0xdf3cf8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__ObjectOpacity.userFunc0x13b1888 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -44,7 +44,7 @@ gdjs.evtsExt__WithThreeJS__ObjectOpacity.eventsList0 = function(runtimeScene, ev
 {
 
 
-gdjs.evtsExt__WithThreeJS__ObjectOpacity.userFunc0xdf3cf8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__ObjectOpacity.userFunc0x13b1888(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

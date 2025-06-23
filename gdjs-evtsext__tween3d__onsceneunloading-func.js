@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__Tween3D__onSceneUnloading !== "undefined") {
 gdjs.evtsExt__Tween3D__onSceneUnloading = {};
 
 
-gdjs.evtsExt__Tween3D__onSceneUnloading.userFunc0x7dc220 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Tween3D__onSceneUnloading.userFunc0x1a419b8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!runtimeScene.__tween3DExtension) {
     return;
@@ -25,7 +25,7 @@ gdjs.evtsExt__Tween3D__onSceneUnloading.eventsList0 = function(runtimeScene, eve
 {
 
 
-gdjs.evtsExt__Tween3D__onSceneUnloading.userFunc0x7dc220(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Tween3D__onSceneUnloading.userFunc0x1a419b8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

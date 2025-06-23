@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__CameraShake3D__DeleteAll !== "undefined") {
 gdjs.evtsExt__CameraShake3D__DeleteAll = {};
 
 
-gdjs.evtsExt__CameraShake3D__DeleteAll.userFunc0x1a06fd8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__CameraShake3D__DeleteAll.userFunc0x1a01478 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 gdjs._cameraShake3DExtension.noiseManager.deleteAllGenerators();
 };
@@ -17,7 +17,7 @@ gdjs.evtsExt__CameraShake3D__DeleteAll.eventsList0 = function(runtimeScene, even
 {
 
 
-gdjs.evtsExt__CameraShake3D__DeleteAll.userFunc0x1a06fd8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__CameraShake3D__DeleteAll.userFunc0x1a01478(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

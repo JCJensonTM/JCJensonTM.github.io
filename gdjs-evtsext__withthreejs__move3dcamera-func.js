@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__Move3DCamera !== "undefined") {
 gdjs.evtsExt__WithThreeJS__Move3DCamera = {};
 
 
-gdjs.evtsExt__WithThreeJS__Move3DCamera.userFunc0xb8ee70 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__Move3DCamera.userFunc0x1252c30 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -41,7 +41,7 @@ gdjs.evtsExt__WithThreeJS__Move3DCamera.eventsList0 = function(runtimeScene, eve
 {
 
 
-gdjs.evtsExt__WithThreeJS__Move3DCamera.userFunc0xb8ee70(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__Move3DCamera.userFunc0x1252c30(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

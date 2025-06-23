@@ -19,7 +19,7 @@ gdjs.evtsExt__A3F__LocalTranslateDistance.GDObjectObjects2= [];
 gdjs.evtsExt__A3F__LocalTranslateDistance.GDObjectObjects3= [];
 
 
-gdjs.evtsExt__A3F__LocalTranslateDistance.userFunc0x124c0e8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__A3F__LocalTranslateDistance.userFunc0x13749a8 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const Object2D = objects[0];
 const Object3D = Object2D.get3DRendererObject();
@@ -51,7 +51,7 @@ gdjs.copyArray(gdjs.evtsExt__A3F__LocalTranslateDistance.GDObjectObjects2, gdjs.
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__A3F__LocalTranslateDistance.GDObjectObjects3);
-gdjs.evtsExt__A3F__LocalTranslateDistance.userFunc0x124c0e8(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__A3F__LocalTranslateDistance.userFunc0x13749a8(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

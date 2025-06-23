@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__A3F__LocalTranslateCameraDistance !== "undefined") {
 gdjs.evtsExt__A3F__LocalTranslateCameraDistance = {};
 
 
-gdjs.evtsExt__A3F__LocalTranslateCameraDistance.userFunc0x12ac4b0 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__A3F__LocalTranslateCameraDistance.userFunc0x12ac530 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const Axis = eventsFunctionContext.getArgument("Axis");
 const Distance = eventsFunctionContext.getArgument("Distance");
@@ -37,7 +37,7 @@ gdjs.evtsExt__A3F__LocalTranslateCameraDistance.eventsList0 = function(runtimeSc
 
 
 var objects = [];
-gdjs.evtsExt__A3F__LocalTranslateCameraDistance.userFunc0x12ac4b0(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__A3F__LocalTranslateCameraDistance.userFunc0x12ac530(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
