@@ -10,7 +10,7 @@ gdjs.evtsExt__Collision3D__AreInCollision.GDObjectObjects1= [];
 gdjs.evtsExt__Collision3D__AreInCollision.GDOtherObjectObjects1= [];
 
 
-gdjs.evtsExt__Collision3D__AreInCollision.userFunc0x1a207d0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Collision3D__AreInCollision.userFunc0x1a2c248 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // TODO If the condition is inverted, the object farthest from the specified position is picked instead.
 const inverted = false;
@@ -27,7 +27,7 @@ gdjs.evtsExt__Collision3D__AreInCollision.eventsList0 = function(runtimeScene, e
 {
 
 
-gdjs.evtsExt__Collision3D__AreInCollision.userFunc0x1a207d0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Collision3D__AreInCollision.userFunc0x1a2c248(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

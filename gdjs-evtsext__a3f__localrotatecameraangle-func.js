@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__A3F__LocalRotateCameraAngle !== "undefined") {
 gdjs.evtsExt__A3F__LocalRotateCameraAngle = {};
 
 
-gdjs.evtsExt__A3F__LocalRotateCameraAngle.userFunc0x148e028 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__A3F__LocalRotateCameraAngle.userFunc0x134c660 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const Axis = eventsFunctionContext.getArgument("Axis");
 const Angle = eventsFunctionContext.getArgument("Angle");
@@ -34,7 +34,7 @@ gdjs.evtsExt__A3F__LocalRotateCameraAngle.eventsList0 = function(runtimeScene, e
 
 
 var objects = [];
-gdjs.evtsExt__A3F__LocalRotateCameraAngle.userFunc0x148e028(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__A3F__LocalRotateCameraAngle.userFunc0x134c660(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__Rotate3DObjectLikeHead !== "undefined") {
 gdjs.evtsExt__WithThreeJS__Rotate3DObjectLikeHead = {};
 
 
-gdjs.evtsExt__WithThreeJS__Rotate3DObjectLikeHead.userFunc0x12419f0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__Rotate3DObjectLikeHead.userFunc0x134c428 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -52,7 +52,7 @@ gdjs.evtsExt__WithThreeJS__Rotate3DObjectLikeHead.eventsList0 = function(runtime
 {
 
 
-gdjs.evtsExt__WithThreeJS__Rotate3DObjectLikeHead.userFunc0x12419f0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__Rotate3DObjectLikeHead.userFunc0x134c428(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__CheckVisibilityOf3DObject !== "undefined")
 gdjs.evtsExt__WithThreeJS__CheckVisibilityOf3DObject = {};
 
 
-gdjs.evtsExt__WithThreeJS__CheckVisibilityOf3DObject.userFunc0xfee178 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__CheckVisibilityOf3DObject.userFunc0x8deaf8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -43,7 +43,7 @@ gdjs.evtsExt__WithThreeJS__CheckVisibilityOf3DObject.eventsList0 = function(runt
 {
 
 
-gdjs.evtsExt__WithThreeJS__CheckVisibilityOf3DObject.userFunc0xfee178(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__CheckVisibilityOf3DObject.userFunc0x8deaf8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

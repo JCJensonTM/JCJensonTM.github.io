@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__THNK_P2P__ConnectToServer !== "undefined") {
 gdjs.evtsExt__THNK_P2P__ConnectToServer = {};
 
 
-gdjs.evtsExt__THNK_P2P__ConnectToServer.userFunc0x1a30698 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__THNK_P2P__ConnectToServer.userFunc0x1a2c248 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 THNK.client.startClient(
     runtimeScene,
@@ -21,7 +21,7 @@ gdjs.evtsExt__THNK_P2P__ConnectToServer.eventsList0 = function(runtimeScene, eve
 {
 
 
-gdjs.evtsExt__THNK_P2P__ConnectToServer.userFunc0x1a30698(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__THNK_P2P__ConnectToServer.userFunc0x1a2c248(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

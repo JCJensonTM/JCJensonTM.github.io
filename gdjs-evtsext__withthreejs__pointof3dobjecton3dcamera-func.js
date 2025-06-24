@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__PointOf3DObjectOn3DCamera !== "undefined")
 gdjs.evtsExt__WithThreeJS__PointOf3DObjectOn3DCamera = {};
 
 
-gdjs.evtsExt__WithThreeJS__PointOf3DObjectOn3DCamera.userFunc0x1442ae0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__PointOf3DObjectOn3DCamera.userFunc0x1413600 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -57,7 +57,7 @@ gdjs.evtsExt__WithThreeJS__PointOf3DObjectOn3DCamera.eventsList0 = function(runt
 {
 
 
-gdjs.evtsExt__WithThreeJS__PointOf3DObjectOn3DCamera.userFunc0x1442ae0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__PointOf3DObjectOn3DCamera.userFunc0x1413600(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

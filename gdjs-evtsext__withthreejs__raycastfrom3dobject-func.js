@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__RaycastFrom3DObject !== "undefined") {
 gdjs.evtsExt__WithThreeJS__RaycastFrom3DObject = {};
 
 
-gdjs.evtsExt__WithThreeJS__RaycastFrom3DObject.userFunc0xc25e10 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__RaycastFrom3DObject.userFunc0x13fa348 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -49,7 +49,7 @@ gdjs.evtsExt__WithThreeJS__RaycastFrom3DObject.eventsList0 = function(runtimeSce
 {
 
 
-gdjs.evtsExt__WithThreeJS__RaycastFrom3DObject.userFunc0xc25e10(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__RaycastFrom3DObject.userFunc0x13fa348(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

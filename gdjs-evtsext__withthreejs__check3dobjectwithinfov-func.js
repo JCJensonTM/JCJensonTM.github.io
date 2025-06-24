@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__Check3DObjectWithinFOV !== "undefined") {
 gdjs.evtsExt__WithThreeJS__Check3DObjectWithinFOV = {};
 
 
-gdjs.evtsExt__WithThreeJS__Check3DObjectWithinFOV.userFunc0xfee178 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__Check3DObjectWithinFOV.userFunc0x8deaf8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -40,7 +40,7 @@ gdjs.evtsExt__WithThreeJS__Check3DObjectWithinFOV.eventsList0 = function(runtime
 {
 
 
-gdjs.evtsExt__WithThreeJS__Check3DObjectWithinFOV.userFunc0xfee178(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__Check3DObjectWithinFOV.userFunc0x8deaf8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

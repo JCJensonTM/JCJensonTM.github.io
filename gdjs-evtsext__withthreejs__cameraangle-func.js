@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__CameraAngle !== "undefined") {
 gdjs.evtsExt__WithThreeJS__CameraAngle = {};
 
 
-gdjs.evtsExt__WithThreeJS__CameraAngle.userFunc0x12ae540 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__CameraAngle.userFunc0x1446870 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -35,7 +35,7 @@ gdjs.evtsExt__WithThreeJS__CameraAngle.eventsList0 = function(runtimeScene, even
 {
 
 
-gdjs.evtsExt__WithThreeJS__CameraAngle.userFunc0x12ae540(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__CameraAngle.userFunc0x1446870(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

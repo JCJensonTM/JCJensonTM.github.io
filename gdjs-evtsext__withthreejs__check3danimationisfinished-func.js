@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__Check3DAnimationIsFinished !== "undefined"
 gdjs.evtsExt__WithThreeJS__Check3DAnimationIsFinished = {};
 
 
-gdjs.evtsExt__WithThreeJS__Check3DAnimationIsFinished.userFunc0xfee178 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__Check3DAnimationIsFinished.userFunc0x8deaf8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -57,7 +57,7 @@ gdjs.evtsExt__WithThreeJS__Check3DAnimationIsFinished.eventsList0 = function(run
 {
 
 
-gdjs.evtsExt__WithThreeJS__Check3DAnimationIsFinished.userFunc0xfee178(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__Check3DAnimationIsFinished.userFunc0x8deaf8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

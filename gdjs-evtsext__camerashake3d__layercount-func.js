@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__CameraShake3D__LayerCount !== "undefined") {
 gdjs.evtsExt__CameraShake3D__LayerCount = {};
 
 
-gdjs.evtsExt__CameraShake3D__LayerCount.userFunc0x196bbf0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__CameraShake3D__LayerCount.userFunc0x195c818 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 gdjs._cameraShake3DExtension = gdjs._cameraShake3DExtension || {};
 gdjs._cameraShake3DExtension.layerNames = gdjs._cameraShake3DExtension.layerNames || [];
@@ -23,7 +23,7 @@ gdjs.evtsExt__CameraShake3D__LayerCount.eventsList0 = function(runtimeScene, eve
 {
 
 
-gdjs.evtsExt__CameraShake3D__LayerCount.userFunc0x196bbf0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__CameraShake3D__LayerCount.userFunc0x195c818(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

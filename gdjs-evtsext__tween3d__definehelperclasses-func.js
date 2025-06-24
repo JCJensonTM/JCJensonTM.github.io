@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__Tween3D__DefineHelperClasses !== "undefined") {
 gdjs.evtsExt__Tween3D__DefineHelperClasses = {};
 
 
-gdjs.evtsExt__Tween3D__DefineHelperClasses.userFunc0x1a42140 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Tween3D__DefineHelperClasses.userFunc0x1a2c248 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (gdjs.__tween3DExtension) {
   return;
@@ -245,7 +245,7 @@ gdjs.evtsExt__Tween3D__DefineHelperClasses.eventsList0 = function(runtimeScene, 
 {
 
 
-gdjs.evtsExt__Tween3D__DefineHelperClasses.userFunc0x1a42140(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Tween3D__DefineHelperClasses.userFunc0x1a2c248(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

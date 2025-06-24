@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__ChangeBlendMode !== "undefined") {
 gdjs.evtsExt__WithThreeJS__ChangeBlendMode = {};
 
 
-gdjs.evtsExt__WithThreeJS__ChangeBlendMode.userFunc0x8b5fe0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__ChangeBlendMode.userFunc0x12ced70 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -50,7 +50,7 @@ gdjs.evtsExt__WithThreeJS__ChangeBlendMode.eventsList0 = function(runtimeScene, 
 {
 
 
-gdjs.evtsExt__WithThreeJS__ChangeBlendMode.userFunc0x8b5fe0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__ChangeBlendMode.userFunc0x12ced70(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

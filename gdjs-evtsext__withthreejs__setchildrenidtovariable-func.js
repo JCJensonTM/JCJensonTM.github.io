@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__SetChildrenIdToVariable !== "undefined") {
 gdjs.evtsExt__WithThreeJS__SetChildrenIdToVariable = {};
 
 
-gdjs.evtsExt__WithThreeJS__SetChildrenIdToVariable.userFunc0x13a95e8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__SetChildrenIdToVariable.userFunc0x12cc368 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -37,7 +37,7 @@ gdjs.evtsExt__WithThreeJS__SetChildrenIdToVariable.eventsList0 = function(runtim
 {
 
 
-gdjs.evtsExt__WithThreeJS__SetChildrenIdToVariable.userFunc0x13a95e8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__SetChildrenIdToVariable.userFunc0x12cc368(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

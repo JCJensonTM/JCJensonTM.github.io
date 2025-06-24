@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__CheckExistenceOf3DObject !== "undefined") 
 gdjs.evtsExt__WithThreeJS__CheckExistenceOf3DObject = {};
 
 
-gdjs.evtsExt__WithThreeJS__CheckExistenceOf3DObject.userFunc0xff2d78 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__CheckExistenceOf3DObject.userFunc0x8deaf8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -31,7 +31,7 @@ gdjs.evtsExt__WithThreeJS__CheckExistenceOf3DObject.eventsList0 = function(runti
 {
 
 
-gdjs.evtsExt__WithThreeJS__CheckExistenceOf3DObject.userFunc0xff2d78(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__CheckExistenceOf3DObject.userFunc0x8deaf8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

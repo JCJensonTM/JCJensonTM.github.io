@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__WithThreeJS__ObjectAnimationSpeedScale !== "undefined")
 gdjs.evtsExt__WithThreeJS__ObjectAnimationSpeedScale = {};
 
 
-gdjs.evtsExt__WithThreeJS__ObjectAnimationSpeedScale.userFunc0xfcbda8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__WithThreeJS__ObjectAnimationSpeedScale.userFunc0xa532b0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (!gdjs.__WithThreeJS.has("Renderer")) {
     console.warn("!");
@@ -45,7 +45,7 @@ gdjs.evtsExt__WithThreeJS__ObjectAnimationSpeedScale.eventsList0 = function(runt
 {
 
 
-gdjs.evtsExt__WithThreeJS__ObjectAnimationSpeedScale.userFunc0xfcbda8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__WithThreeJS__ObjectAnimationSpeedScale.userFunc0xa532b0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

@@ -10,7 +10,7 @@ gdjs.evtsExt__Collision3D__AreWithinDistance.GDObjectObjects1= [];
 gdjs.evtsExt__Collision3D__AreWithinDistance.GDOtherObjectObjects1= [];
 
 
-gdjs.evtsExt__Collision3D__AreWithinDistance.userFunc0x1a207d0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Collision3D__AreWithinDistance.userFunc0x1a0fd28 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 // TODO If condition is inverted, only objects that have a distance greater than specified to any other object will be picked.
 const inverted = false;
@@ -29,7 +29,7 @@ gdjs.evtsExt__Collision3D__AreWithinDistance.eventsList0 = function(runtimeScene
 {
 
 
-gdjs.evtsExt__Collision3D__AreWithinDistance.userFunc0x1a207d0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Collision3D__AreWithinDistance.userFunc0x1a0fd28(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

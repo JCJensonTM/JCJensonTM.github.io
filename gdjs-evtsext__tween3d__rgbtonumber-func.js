@@ -8,7 +8,7 @@ if (typeof gdjs.evtsExt__Tween3D__RgbToNumber !== "undefined") {
 gdjs.evtsExt__Tween3D__RgbToNumber = {};
 
 
-gdjs.evtsExt__Tween3D__RgbToNumber.userFunc0x1a419b8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__Tween3D__RgbToNumber.userFunc0x1a2c248 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 eventsFunctionContext.returnValue = gdjs.rgbOrHexStringToNumber(eventsFunctionContext.getArgument("Color"));
 
@@ -18,7 +18,7 @@ gdjs.evtsExt__Tween3D__RgbToNumber.eventsList0 = function(runtimeScene, eventsFu
 {
 
 
-gdjs.evtsExt__Tween3D__RgbToNumber.userFunc0x1a419b8(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__Tween3D__RgbToNumber.userFunc0x1a2c248(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
